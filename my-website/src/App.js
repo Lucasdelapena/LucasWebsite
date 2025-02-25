@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
-  return (
+  return ( // tells react what to display
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
