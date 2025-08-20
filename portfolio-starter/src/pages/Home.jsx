@@ -6,6 +6,9 @@ export default function Home() {
         <p className="mt-3 text-gray-600 max-w-2xl">
           CS grad • Esports community lead • Micro Center tech. I build useful things across C/C++,
           Python, and React. Here are a few projects I’m proud of.
+
+          https://miyuo.itch.io/bubble-boat
+          
         </p>
       </header>
 
