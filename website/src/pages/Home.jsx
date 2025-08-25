@@ -1,24 +1,34 @@
 import { motion } from "framer-motion";
+import RotatingTypewriter from "../components/Typewriter";
 
 export default function Home() {
   return (
-    <section className="grid gap-6">
+    <section className="grid gap-6 pt-60 mx-auto pl-56">
       <header className="text-center md:text-left">
-        <motion.h1 
-        className="text-4xl md:text-5xl font-extrabold tracking-tight"
+        <motion.p 
+        className="text-5xl md:text-6xl font-extrabold tracking-tight"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
         >
           Lucas de la Peña
-        </motion.h1>
-        <motion.p className="mt-3 text-gray-600 max-w-2xl">
-          
-          CS grad • Esports community lead • Micro Center tech. I build useful things across C/C++,
-          Python, and React. Here are a few projects I’m proud of.{" "}
-          https://miyuo.itch.io/bubble-boat
-         
         </motion.p>
+        <p className="mt-3 text-gray-600 max-w-2xl text-4xl">
+
+          <RotatingTypewriter
+            lines={[
+              "is a software engineer.",
+              "graduated from University of Missouri-St. Louis",
+              "brings code to life through projects",
+              "is always learning, and always building.",
+            ]}
+            speed={60}
+            pause={1500}
+            startDelay={500}
+          />
+       
+         
+        </p>
       </header>
     </section>
 

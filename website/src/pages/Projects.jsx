@@ -25,7 +25,7 @@ export default function Projects() {
   return (
     <section className="grid gap-6">
       <h1 className="text-3xl font-bold">Projects</h1>
-      <p className="text-gray-600">A few representative builds. I can share more on request.</p>
+      <p className="text-gray-600">A few representative builds. I can share more on request.  https://miyuo.itch.io/bubble-boat</p>
       <div className="grid md:grid-cols-2 gap-4">
         {data.map((p) => <ProjectCard key={p.title} project={p} />)}
       </div>

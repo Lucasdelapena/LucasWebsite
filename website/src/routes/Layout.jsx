@@ -26,8 +26,8 @@ export default function Layout() {
         <div className="mx-auto max-w-5xl px-4 py-6 text-sm text-gray-500 flex items-center justify-between">
           <p>© {new Date().getFullYear()} Lucas. All rights reserved.</p>
           <div className="flex gap-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/Lucasdelapena" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/lucasdelapena/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
       </footer>
