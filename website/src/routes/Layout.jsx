@@ -9,9 +9,9 @@ export default function Layout() {
       <nav className="sticky top-0 bg-white/80 backdrop-blur border-b z-10">
         <div className="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
           <Link to="/" className="font-bold text-lg">PUT LOGO HERE</Link>
-          <div className="flex gap-2">
+          <div className="flex gap-2 text-center items-center">
             <NavLink to="/" className={navLink} end>Home</NavLink>
-            <NavLink to="/projects" className={navLink}>Projects</NavLink>
+            <NavLink to="/projects" className={navLink}>Projects & Courses</NavLink>
             <NavLink to="/about" className={navLink}>About</NavLink>
             <NavLink to="/contact" className={navLink}>Contact</NavLink>
           </div>

@@ -1,7 +1,18 @@
+import { motion } from 'framer-motion'
+
 export default function Contact() {
   return (
     <section className="grid gap-6 max-w-xl">
-      <h1 className="text-3xl font-bold">Contact</h1>
+      <h1>
+        <motion.p 
+        className="text-3xl font-bold"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        >
+          Contact
+        </motion.p>
+      </h1>
       <p className="text-gray-600">
         Best way: email me at <a className="underline" href="mailto:you@example.com">you@example.com</a>.
       </p>

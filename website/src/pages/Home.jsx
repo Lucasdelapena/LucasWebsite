@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-import RotatingTypewriter from "../components/Typewriter";
+import { motion } from "framer-motion"
+import RotatingTypewriter from "../components/Typewriter"
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
               "is a software engineer.",
               "graduated from University of Missouri-St. Louis",
               "brings code to life through projects",
-              "is always learning, and always building.",
+              "is always learning, and building.",
             ]}
             speed={60}
             pause={1500}

@@ -3,7 +3,7 @@ export default function About() {
     <section className="prose max-w-none">
       <h1>About</h1>
       <p>
-        I’m Lucas—CS grad and Esports Assistant/Community President. I like shipping
+        I’m Lucas — CS grad and Esports Assistant/Community President. I like shipping
         practical tools, clean UX, and performance-minded code.
       </p>
       <h3>Skills</h3>
