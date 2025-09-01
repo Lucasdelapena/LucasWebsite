@@ -1,7 +1,18 @@
+import { motion } from 'framer-motion'
+
 export default function About() {
   return (
     <section className="prose max-w-none">
-      <h1>About</h1>
+      <h1 >
+        <motion.p
+          className="text-3xl font-bold"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+        >   
+        About Me
+        </motion.p>
+      </h1>
       <p>
         I’m Lucas — CS grad and Esports Assistant/Community President. I like shipping
         practical tools, clean UX, and performance-minded code.

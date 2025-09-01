@@ -66,10 +66,7 @@ export default function Projects() {
       <motion.section
         initial={{ opacity: 0, x : -20}}
         animate={{ opacity: 1, x : 0 }}
-        transition={{
-            duration: 0.7,
-          
-        }}
+        transition={{duration: 0.7,}}
       >
       <div className="flex gap-4">
         <TabBtn id="projects" >Projects</TabBtn>
