@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 export default function Contact() {
   return (
-    <section className="grid gap-6 max-w-xl">
+    <section className="grid gap-6 max-w-xxl">
       <h1>
         <motion.p 
         className="text-3xl font-bold"

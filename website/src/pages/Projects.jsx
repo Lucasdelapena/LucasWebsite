@@ -3,38 +3,41 @@ import { useState } from 'react'
 import ProjectCard from '../components/ProjectCard.jsx'
 import { fadeSlide } from '../components/animations.jsx';
 import { popin } from '../components/animations.jsx';
+import { projects } from '../data/projectData.jsx';
+import { courses } from '../data/projectData.jsx';
 
 
-const projects = [
-  {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
-    tech: ["JavaScript", "Chrome Extensions", "DOM"],
-    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
-  },
-  {
-    title: "Project Two",
-    description: "Description for project two.",
-    tech: ["TechA", "TechB"],
-    links: { repo: "#", demo: "#" }
-  },
-];
 
-const courses = [
-  {
-    title: "Course One",
-    description: "Description for course one.",
-    tech: ["Topic1", "Topic2"],
-    links: { details: "#" },
-    skills: ["C/C++, Python, JavaScript/React", "Chrome extensions, Node, Linux", "Unity/C#, Git, CI basics"]
-  },
-  {
-    title: "Course Two",
-    description: "Description for course two.",
-    tech: ["TopicA", "TopicB"],
-    links: { details: "#" }
-  },
-];
+// const projects = [
+//   {
+//     title: "Micro Center Tracker (Chrome Extension)",
+//     description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+//     tech: ["JavaScript", "Chrome Extensions", "DOM"],
+//     links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+//   },
+//   {
+//     title: "Project Two",
+//     description: "Description for project two.",
+//     tech: ["TechA", "TechB"],
+//     links: { repo: "#", demo: "#" }
+//   },
+// ];
+
+// const courses = [
+//   {
+//     title: "Course One",
+//     description: "Description for course one.",
+//     tech: ["Topic1", "Topic2"],
+//     links: { details: "#" },
+//     skills: ["C/C++, Python, JavaScript/React", "Chrome extensions, Node, Linux", "Unity/C#, Git, CI basics"]
+//   },
+//   {
+//     title: "Course Two",
+//     description: "Description for course two.",
+//     tech: ["TopicA", "TopicB"],
+//     links: { details: "#" }
+//   },
+// ];
 
 
 
