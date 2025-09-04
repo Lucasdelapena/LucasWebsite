@@ -2,17 +2,66 @@
 
 export const projects = [
   {
+    title: "Bubble Boat",
+    description: "Developed in Unity during the 2025 Global Game Jam (48 hours, theme: Bubble). Players pilot a ship and score points by firing propeller-made bubbles to hit as many sharks as possible.",
+    tech: ["TechA", "TechB"],
+    links: { repo: "https://github.com/Lucasdelapena/BubbleBoat", demo: "https://miyuo.itch.io/bubble-boat" }
+  },
+  {
     title: "Micro Center Tracker (Chrome Extension)",
     description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
     tech: ["JavaScript", "Chrome Extensions", "DOM"],
     links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
   },
   {
-    title: "Project Two",
-    description: "Description for project two.",
-    tech: ["TechA", "TechB"],
-    links: { repo: "#", demo: "#" }
+    title: "Micro Center Tracker (Chrome Extension)",
+    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
   },
+  {
+    title: "Micro Center Tracker (Chrome Extension)",
+    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+  },
+  {
+    title: "Micro Center Tracker (Chrome Extension)",
+    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+  },
+  {
+    title: "Micro Center Tracker (Chrome Extension)",
+    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+  },
+  {
+    title: "Micro Center Tracker (Chrome Extension)",
+    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+  },
+  {
+    title: "Micro Center Tracker (Chrome Extension)",
+    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+  },
+  {
+    title: "Micro Center Tracker (Chrome Extension)",
+    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+  },
+  {
+    title: "Micro Center Tracker (Chrome Extension)",
+    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+  },
+  
 ];
 
 
