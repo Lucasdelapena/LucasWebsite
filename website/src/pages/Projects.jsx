@@ -30,7 +30,7 @@ export default function Projects() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, }}
         >   
-        Projects & Courses
+        Projects & Courses fix logo moving up top
         </motion.p>
       </h1>
  
