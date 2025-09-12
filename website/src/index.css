@@ -7,6 +7,10 @@
 /* Simple typography */
 .prose a { @apply underline; }
 
+html{
+    overflow-y: scroll;
+}
+
 body {
   @apply to-black;
   @apply font-fira;

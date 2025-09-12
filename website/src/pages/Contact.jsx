@@ -14,12 +14,11 @@ export default function Contact() {
         </motion.p>
       </h1>
       <motion.p 
-      className="text-gray-600"
+      className="text-gray-600 text-lg"
       initial={{ opacity: 0, }}
       animate={{ opacity: 1,}}
       transition={{ duration: 0.7, delay: 0.5 }}
       >
-        notes to self: add logos to linkedin, github, email. fix the centered home page.
         Need to get in touch? Feel free to drop me a message using the form below. I look forward to connecting with you!
       </motion.p>
       <motion.form

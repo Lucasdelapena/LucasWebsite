@@ -30,7 +30,7 @@ export default function Projects() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, }}
         >   
-        Projects & Courses fix logo moving up top
+        Projects & Courses
         </motion.p>
       </h1>
  
@@ -63,6 +63,8 @@ export default function Projects() {
             >
               {projects.map((p) => (
                 <ProjectCard key={p.title} project={p} />
+                
+                
               ))}
             </motion.div>
           ) : (
@@ -75,7 +77,13 @@ export default function Projects() {
               className="grid md:grid-cols-2 gap-4"
             >
               {courses.map((c) => ( //Maybe make a CourseCard component later !!!!
-                <article key={c.title} className="p-5 border rounded-2xl shadow-sm">
+                <motion.article 
+                whileHover={{ scale: 1.02 }}
+                transition={{ type: "spring", stiffness: 300 }}
+                key={c.title} 
+               
+                className="p-5 border rounded-2xl shadow-sm hover:bg-blue-50"
+                >
                   <h3 className="font-semibold">{c.title}</h3>
                   <p className="text-sm text-gray-600 mt-1">{c.description}</p>
                   <ul className="flex flex-wrap gap-2 mt-3 text-xs">
@@ -88,7 +96,7 @@ export default function Projects() {
                       Details
                     </a>
                   )}
-                </article>
+                </motion.article>
               ))}
             </motion.div>
           )}

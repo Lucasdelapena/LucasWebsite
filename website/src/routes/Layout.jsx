@@ -24,7 +24,7 @@ export default function Layout() {
 
       <footer className="border-t">
         <div className="mx-auto max-w-5xl px-4 py-6 text-sm text-gray-500 flex items-center justify-between">
-          <p>© {new Date().getFullYear()} Lucas. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Lucas de la Peña</p>
           <div className="flex gap-4">
             <a href="https://github.com/Lucasdelapena" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/lucasdelapena/" target="_blank" rel="noreferrer">LinkedIn</a>
