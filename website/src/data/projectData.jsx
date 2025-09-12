@@ -14,54 +14,42 @@ export const projects = [
     links: { repo: "https://github.com/Lucasdelapena/MicrocenterExtension"}
   },
   {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
-    tech: ["JavaScript", "Chrome Extensions", "DOM"],
+    title: "Image Resizer",
+    description: "This program displays images from a chosen directory in a resizable OpenCV window, automatically scaling them to fit the monitor if necessary. It provides details like filename, dimensions, file size, pixel count, and a random pixel’s color, while allowing users to navigate images with keyboard controls.",
+    tech: ["Python", "OpenCV"],
     links: { repo: "https://github.com/Lucasdelapena/ImageResizing"}
   },
   {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
+    title: "Mario Kart Tournament Number Generator",
+    description: "An easy to use GUI application that generates random numbers for Mario Kart tournaments. Users can specify the range and quantity of numbers to generate, and the app displays the results in a user-friendly interface.",
     tech: ["Python", "tkinter", "ttkbootstrap"],
     links: { repo: "https://github.com/Lucasdelapena/NumberGenerator4MarioKart" }
   },
   {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
-    tech: ["JavaScript", "Chrome Extensions", "DOM"],
-    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+    title: "Canvas Painting",
+    description: "Takes a canvas of any input size and randomly fills it with colored squares to create a painting. Users can save the painting as an image file and gather data from the results.",
+    tech: ["JS", "HTML", "React"],
+    links: { repo: "https://github.com/Lucasdelapena/Painting" }
   },
   {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
-    tech: ["JavaScript", "Chrome Extensions", "DOM"],
-    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+    title: "SVM Classification",
+    description: "This program creates two clusters of points, trains a linear SVM to separate them, evaluates its accuracy, and visualizes the decision boundary on a plot.",
+    tech: ["Python", "Jupyter Notebook"],
+    links: { repo: "https://github.com/Lucasdelapena/SVM-Classification" }
   },
   {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
-    tech: ["JavaScript", "Chrome Extensions", "DOM"],
-    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+    title: "PLA Classification",
+    description: "This notebook implements the Perceptron Learning Algorithm (PLA). It generates sample data points, applies PLA to find a linear boundary that separates the classes, and reports the final weights, misclassifications, and iterations.",
+    tech: ["Python", "Jupyter Notebook"],
+    links: { repo: "https://github.com/Lucasdelapena/PLA-Classification" }
   },
   {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
-    tech: ["JavaScript", "Chrome Extensions", "DOM"],
-    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
+    title: "Huffman Coding with Highlighting & Equalization",
+    description: "highlight.py is an image processing tool that allows users to select a region of interest, dim the surrounding area, and enhance contrast within the selection, while huffman.py performs Huffman coding on grayscale images to calculate entropy, generate codes, and evaluate compression efficiency.",
+    tech: ["Python", "OpenCV"],
+    links: { repo: "https://github.com/Lucasdelapena/HuffmanCoding-highlighting-equalization" }
   },
-  {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
-    tech: ["JavaScript", "Chrome Extensions", "DOM"],
-    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
-  },
-  {
-    title: "Micro Center Tracker (Chrome Extension)",
-    description: "Scrapes product name, price, stock, SKU/UPC and jumps to Amazon/BestBuy/Walmart/Newegg searches.",
-    tech: ["JavaScript", "Chrome Extensions", "DOM"],
-    links: { repo: "https://github.com/yourusername/micro-center-tracker", demo: "#" }
-  },
-  
+
 ];
 
 

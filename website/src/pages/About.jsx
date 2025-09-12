@@ -23,7 +23,7 @@ export default function About() {
         </motion.p>
       </h1>
       <motion.p
-      className="text-lg"
+      className="text-regular"
       initial={{ opacity: 0, y : 40 }}
       animate={{ opacity: 1, y : 0 }}
       transition={{ duration: 0.7}}
@@ -33,7 +33,7 @@ export default function About() {
       </motion.p>
       <br/>
       <motion.p
-      className="text-lg"
+      className="text-regular"
       initial={{ opacity: 0, y : 40 }}
       animate={{ opacity: 1, y : 0 }}
       transition={{ duration: 0.7, delay: 0.2 }}
@@ -45,7 +45,7 @@ export default function About() {
       </motion.p>
       <br/>
       <motion.p
-      className="text-lg"
+      className="text-regular"
       initial={{ opacity: 0, y : 40 }}
       animate={{ opacity: 1, y : 0 }}
       transition={{ duration: 0.7 , delay: 0.4 }}
@@ -56,7 +56,7 @@ export default function About() {
       </motion.p>
       <br/>
       <motion.p
-      className="text-lg"
+      className="text-regular"
       initial={{ opacity: 0, y : 40 }}
       animate={{ opacity: 1, y : 0 }}
       transition={{ duration: 0.7 , delay: 0.6 }}
