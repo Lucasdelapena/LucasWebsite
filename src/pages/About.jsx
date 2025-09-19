@@ -12,6 +12,8 @@ const photos = [
 
 
 /*
+
+please work
 const photos = [
   "../assets/grad.jpg",
   "../assets/gamejam.jpg",
