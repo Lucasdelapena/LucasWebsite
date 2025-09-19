@@ -1,24 +1,16 @@
-# Portfolio Starter (React + Vite + Tailwind)
+# LucasWebsite — Personal Portfolio
 
-## Quickstart
-```bash
-# 1) Install deps (Node 18+)
-npm install
+This is my personal portfolio website built with **React + Vite + TailwindCSS**.  
+It showcases my projects, coursework, and background, and serves as a way to connect with potential employers and collaborators.
 
-# 2) Run locally
-npm run dev
+---
 
-# 3) Build for production
-npm run build
-npm run preview
-```
-
-## Deploy
-- **Vercel:** import repo → framework preset: Vite → build `npm run build`, output `dist`.
-- **Netlify:** connect repo → build `npm run build`, publish directory `dist`.
-
-## Customize
-- Edit text in `src/pages/*` and navbar in `src/routes/Layout.jsx`.
-- Replace placeholder links (GitHub/LinkedIn, Formspree form id).
-- Add projects in `src/pages/Projects.jsx`.
-- Update favicon in `public/favicon.svg`.
+## 🚀 Features
+- Built with **React** (frontend) and **Vite** (fast bundler/dev server)
+- Styled using **TailwindCSS** for responsive, modern design
+- Animated with **Framer Motion** for smooth interactions
+- Sections for:
+  - **About Me** — background, skills, and interests
+  - **Projects & Courses** — selected builds and university coursework
+  - **Contact** — integrated with Formspree to send me messages
+- Deployed on **GitHub Pages**
