@@ -1,5 +1,6 @@
 import { Link, NavLink, Outlet } from 'react-router-dom'
 
+
 export default function Layout() {
   const navLink = ({ isActive }) =>
     `px-3 py-2 rounded-xl transition ${isActive ? 'bg-black text-white' : 'hover:bg-gray-100'}`
@@ -8,7 +9,7 @@ export default function Layout() {
     <div className="min-h-screen flex flex-col">
       <nav className="sticky top-0 bg-white/80 backdrop-blur border-b z-10">
         <div className="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
-          <Link to="/" className="flex items-center"><img src="/assets/Logo.png" className="h-16 pr-12" /></Link>
+          <Link to="/" className="flex items-center"><img src={`${import.meta.env.BASE_URL}images/Logo.png`} className="h-16 pr-12" /></Link>
           <div className="flex gap-2 text-center items-center">
             <NavLink to="/" className={navLink} end>Home</NavLink>
             <NavLink to="/projects" className={navLink}>Projects & Courses</NavLink>

@@ -2,13 +2,24 @@ import { motion } from 'framer-motion'
 import ImageSlide from '../components/ImageSlide'
 
 const photos = [
+  `${import.meta.env.BASE_URL}images/grad.jpg`,
+  `${import.meta.env.BASE_URL}images/gamejam.jpg`,
+  `${import.meta.env.BASE_URL}images/half.jpg`,
+  `${import.meta.env.BASE_URL}images/volleyball.jpg`,
+  `${import.meta.env.BASE_URL}images/dogs.jpg`,
+];
+
+
+
+/*
+const photos = [
   "../assets/grad.jpg",
   "../assets/gamejam.jpg",
   "../assets/half.jpg",
   "../assets/volleyball.jpg",
   "../assets/dogs.jpg",
 ];
-
+*/
 export default function About() {
   return (
     <section className="prose max-w-none">
